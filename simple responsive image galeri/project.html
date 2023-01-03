@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>membuat responsive gallery</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        body{
+            background-color: rgb(185, 182, 182);
+            text-align: center;
+            margin: 30px;
+        }
+
+        img{
+            display: block;
+            width: 100%;
+        }
+
+        .gallery{
+            width: 80%;
+            margin: 20px auto;
+            border: 10px solid white;
+            list-style: none;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            grid-gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Gallery</h2>
+    <ul class="gallery">
+        <li><img src="img project gallery/iloveimg-resized/iPhone wallpaper.jpg" alt=""></li>
+        <li><img src="img project gallery/iloveimg-resized/Magicolorful on Twitter.png" alt=""></li>
+        <li><img src="img project gallery/iloveimg-resized/Nature – Vector 8K.jpg" alt=""></li>
+        <li><img src="img project gallery/iloveimg-resized/Underwater City.png" alt=""></li>
+        <li><img src="img project gallery/iloveimg-resized/Wallpaper celular.jpg" alt=""></li>
+        <li><img src="img project gallery/iloveimg-resized/らず on Twitter.png" alt=""></li>
+    </ul>
+</body>
+</html>
